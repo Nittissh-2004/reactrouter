@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import ProductList from './Pages/ProductList';
-import Cart from './Pages/Cart';
-import { CartProvider } from './Context/CartContext';
+import Navbar from './components/navbar';
+import ProductList from './pages/productlist';
+import Cart from './pages/cart';
+import { CartProvider } from './context/cartcontext';
 
 function App() {
   return (

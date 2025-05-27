@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useCart } from '../Context/CartContext';
+import { useCart } from '../context/cartcontext';
 import { IoIosCart } from "react-icons/io";
 import { FaBagShopping } from "react-icons/fa6";
 export default function Navbar() {
