@@ -1,4 +1,4 @@
-import { useCart } from '../Context/CartContext';
+import { useCart } from '../context/cartcontext';
 
 export default function CartItem({ item }) {
   const { dispatch } = useCart();
